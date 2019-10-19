@@ -1,6 +1,7 @@
 package com.github.galcyurio
 
-import android.support.v7.util.DiffUtil
+import androidx.recyclerview.widget.DiffUtil
+
 
 class StringDiffCallback : DiffUtil.ItemCallback<String>() {
     override fun areItemsTheSame(old: String, new: String): Boolean = true
